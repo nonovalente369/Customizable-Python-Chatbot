@@ -1,3 +1,17 @@
+## 👥 Team & Acknowledgements
+
+This project was developed in collaboration with:
+
+* **Dyari Karim**
+    * GitHub: https://github.com/nonovalente369
+    * Role: Responsible for designing and implementing the deep learning model (PyTorch), the NLP data pipeline (NLTK utilities), and managing the training process.
+
+
+* **Ceyhun Bozkurt**
+    * GitHub: https://github.com/ceybozz
+    * Role: Lead developer for the administrative interface, intent management
+
+
 # 🤖 Self-Learning Python Chatbot
 
 This is a customizable, self-learning AI chatbot built with Python and PyTorch. Unlike standard bots that are "fixed," you can teach this bot new topics, update its existing knowledge, or delete things it shouldn't know—all while chatting.
