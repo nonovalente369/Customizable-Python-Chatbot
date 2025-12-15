@@ -1,6 +1,3 @@
 torch
 numpy
 nltk
-pyttsx3
-SpeechRecognition
-pyaudio
