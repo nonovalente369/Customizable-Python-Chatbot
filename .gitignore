@@ -1,0 +1,15 @@
+# Python temporary files (junk)
+__pycache__/
+*.py[cod]
+
+# Virtual Environment (Don't upload this!)
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# Optional: Ignore the trained brain if it is too big (>100MB)
+# If your data.pth is small, you can remove the line below to upload it.
+# *.pth
