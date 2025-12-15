@@ -12,7 +12,7 @@ This is a customizable, self-learning AI chatbot built with Python and PyTorch. 
 ## 🚀 How It Works
 
 ### 1. Start Up
-When you launch the chatbot, it takes a moment to "wake up" and reviews its learned database (`intents.json`) to ensure its memory is up to date. Then, it greets you with a welcome message.
+When you launch the chatbot, it reviews its learned database (`intents.json`) to ensure its memory is up to date. Then, it greets you with a welcome message.
 
 ### 2. Processing (The Brain)
 When you **type** a sentence and press Enter, the bot instantly analyzes it. It ignores punctuation, breaks your sentence into key words, and simplifies them (e.g., it knows that "running" and "run" mean the same thing).
@@ -40,8 +40,8 @@ Once you provide the info, the bot:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone [https://github.com/nonovalente369/Custom-Python-Chatbot.git](https://github.com/nonovalente369/Custom-Python-Chatbot.git)
+    cd Custom-Python-Chatbot
     ```
 
 2.  **Install Dependencies**
