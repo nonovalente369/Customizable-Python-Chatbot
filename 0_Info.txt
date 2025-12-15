@@ -1,0 +1,17 @@
+This is a customizable, self-learning AI chatbot. Unlike standard bots that are "fixed," you can teach this bot new topics, update its existing knowledge, or delete things it shouldn't know—all while chatting.
+
+Works:
+1. Start Up: When you launch the chatbot, it takes a moment to "wake up" and review everything it knows to ensure its memory is up to date. Then, it greets you (e.g., "Welcome! I'm Tesla...").
+2. Listening: The bot waits for you to type a message and press Enter.
+3. Processing (The Brain): When you type a sentence, the bot instantly analyzes it. It ignores punctuation, breaks your sentence into key words, and simplifies them (for example, it knows that "running" and "run" mean the same thing).
+4. Thinking & Answering: The bot compares your words against everything it has learned.
+    If it is confident (>90%): It understands what you mean (the "topic") and replies with one of its prepared responses for that topic.
+    If it is unsure: It admits it doesn't understand ("I don't understand that yet") and automatically switches to Learning Mode.
+5. Learning Mode: Instead of just giving up, the bot asks for your help to get smarter. It will ask you for three things:
+    The Topic: What is this conversation about? (e.g., "SpaceX")
+    The Patterns: What are some ways you might ask about this? (e.g., "Tell me about rockets")
+    The Response: What should it say back to you? (e.g., "SpaceX designs rockets.")
+6. Auto-Update: Once you provide the new info, the bot:
+    Saves the new knowledge to its memory.
+    "Studies" the new information instantly.
+    Restarts the conversation automatically so you can immediately ask the exact same question again—and this time, it will know the answer.

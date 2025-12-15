@@ -1,0 +1,172 @@
+{
+    "intents": [
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "I appreciate it",
+                "Thank you so much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "No problem at all.",
+                "Anytime! Let me know if you need anything else."
+            ]
+        },
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "What can you do?",
+                "What are your features?",
+                "How can you help me?",
+                "What do you know?"
+            ],
+            "responses": [
+                "I can chat with you, answer questions, and help you navigate information.",
+                "I am trained to assist with general inquiries and basic conversation.",
+                "I am a general-purpose chatbot. Feel free to ask me anything!"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke",
+                "Say something funny",
+                "Do you know any jokes?",
+                "Make me laugh"
+            ],
+            "responses": [
+                "Why did the developer go broke? Because he used up all his cache.",
+                "Why do Python programmers wear glasses? Because they don't C#.",
+                "I would tell you a UDP joke, but you might not get it.",
+                "Mossad killed Jeffry Epstine, this made them more-sad."
+            ]
+        },
+        {
+            "tag": "status",
+            "patterns": [
+                "Are you real?",
+                "Are you human?",
+                "Are you a robot?",
+                "What are you?"
+            ],
+            "responses": [
+                "I am a chatbot AI.",
+                "I am a virtual assistant running on Python.",
+                "I'm not human, but I try to be helpful!"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "You are smart",
+                "Good job",
+                "You are cool",
+                "I like you",
+                "Great work"
+            ],
+            "responses": [
+                "Thank you! I try my best.",
+                "I appreciate the compliment!",
+                "Thanks! I'm always learning.",
+                "You're too kind!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "How are you?",
+                "Is anyone there?",
+                "Good day"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! I am ready to help.",
+                "Greetings! What can I do for you?",
+                "Hello! Good to see you."
+            ]
+        },
+        {
+            "tag": "introduction",
+            "patterns": [
+                "Who are you?",
+                "What is your name?",
+                "Introduce yourself",
+                "Tell me about yourself",
+                "Who am I talking to?"
+            ],
+            "responses": [
+                "I am a Chatbot designed to assist you.",
+                "I am an AI assistant. You can ask me questions or just chat!",
+                "I'm a virtual assistant here to help."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help me",
+                "I need assistance",
+                "Can you help me?",
+                "I'm lost"
+            ],
+            "responses": [
+                "Of course! I'm here to assist you. What do you need help with?",
+                "I'd be happy to help. Please let me know what you're looking for.",
+                "Don't worry, I can help. What can I assist you with today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Farewell",
+                "See you later",
+                "Bye for now"
+            ],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "Farewell! See you next time.",
+                "See you later!",
+                "Bye! Feel free to return if you have more questions."
+            ]
+        },
+        {
+            "tag": "information",
+            "patterns": [
+                "What can I ask you?",
+                "What questions can I ask?",
+                "Give me information",
+                "Help",
+                "Info",
+                "What are your topics?",
+                "Menu"
+            ],
+            "responses": [
+                "I can answer questions about: \n1. Greetings ('Hi', 'How are you?') \n2. My Identity ('Who are you?') \n3. Jokes ('Tell me a joke') \n4. General Help ('I need assistance')",
+                "You can ask me things like: 'Who created you?', 'Tell me a joke', or simply say 'Hello' to start a conversation.",
+                "Here are some topics I know: Greetings, Jokes, My Identity, and General Assistance. Try asking 'Tell me a joke'!"
+            ]
+        },
+        {
+            "tag": "update_instructions",
+            "patterns": [
+                "How do I teach you?",
+                "How can I add new words?",
+                "Can I update your memory?",
+                "How do I delete a topic?",
+                "Edit mode"
+            ],
+            "responses": [
+                "To manage my memory, simply type 'admin' in the chat.",
+                "You can enter Teaching Mode by typing the command 'admin'.",
+                "Type 'admin' to access the menu for adding, updating, or deleting topics."
+            ]
+        }
+    ]
+}
